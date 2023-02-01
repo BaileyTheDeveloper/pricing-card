@@ -1,0 +1,42 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: #15202B;
+}
+.container{
+    background-color: white;
+    width: 700px;
+    height: 400px;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 25px;
+    padding: 65px;
+
+
+}
+
+.sub{
+        border: 2px solid black;
+        cursor: pointer;
+        margin: 15px;
+        border-radius: 25px;
+}
+
+.sub:hover{
+    box-shadow: 2px 2px 15px 1px #80bfff;
+}
+.sub ul{
+    margin-top: 5px;
+}
+
+.sub h1{
+    margin-left: 20px;
+}
+.nameAndPrice{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+}
+
